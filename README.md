@@ -1,2 +1,2 @@
 # First-HTML-IL
-membuat website portofolio
+membuat website portofolio untuk memenuhi tugas mbkm

@@ -1,46 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Portofolio</title>
-</head>
-<body>
-    <header class="header">
-        <a href="#" class="nama1">Jeremia Sihombing</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-COmpatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>belajar html</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/6ff988c96b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="header" id="home">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" alt="logo">
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            
+                 
+                
+            </div>
+            <div class="header-text" id:="Home">
+       
+                <p style="color: #02ECFF;"><strong>Front End Development <br> <span style="color: white;">Hello, I'm Jeremia Sihombing</strong>
+                
+                <div class="img">
+                    <img src="images/avatar1.png" alt="avatar1">
+                </div>
+              
+              </div> 
+        </section>
+   
 
-    <nav class="navbar">
-        <a href="#Profile">Profile</a>
-        <a href="#skill">Skill</a>
-        <a href="#Project">Project</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
-<!-- section hero -->
-<section class="hero">
-    <div class="image">
-        <img src="/images/avatar1.png" alt="avatar">
-    </div>
-    <div class="content">
-        <h3 style="font-size: 40px;">Hello, Welcome To My Portofolio </h3>
+    <section class="about" id="about">
+        <div>
+            <h1>About Me</h1>
+        </div>
     
-        <h1 style="font-size: 60px; "> <strong>I'm Frond End Developer</strong> </h1>
-    </div>
+            
+            <img src="images/avatar2.png"  alt="avatar2" style="margin: auto;">
+            <br>
+                
+            <p class="subtitle">Hi! I am Jeremia Jordan Sihombing, a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since 2023. I enjoy creating beautifully designed, intuitive and functional websites.</p>
+                             
+    </section>
+
+    <section class="skill" id="skill">
+
+        <div class="container">
+            <h1>Skill</h1>
+            <div class="skill-list">
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, labore.</p>
+                    <a href="https://www.figma.com">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, labore.</p>
+                    <a href="https://getbootstrap.com">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>React JS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, labore.</p>
+                    <a href="https://legacy.reactjs.org/docs/getting-started.html">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="project" id="project">
+        <div class="container">
+            <h1>Project</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="images/work1.jpg" alt="">
+                <div class="layer">
+                    <h3>app</h3>
+                    <a href=""><i class="fa-solid fa-link"></i></a>   
+                </div>
+            </div>
+                <div class="work">
+                    <img src="images/work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                      
+                     <a href=""><i class="fa-solid fa-link"></i></a>   
+                    </div></div>
+                <div class="work">
+                    <img src="images/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Ticket</h3>  <a href=""><i class="fa-solid fa-link"></i></a>   
+                    </div></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+            <h1>Contact me</h1>
+         <div class="container">
+            <div class="row">
+                <div class="contact-me">
+                    <form >
+                        <input type="text"name="Name" placeholder="Your Name" required>
+                        <input type="email"name="Email" placeholder="Your Email" required>
+                        <textarea name="message"  rows="6" placeholder="Your Message"></textarea required>
+                            <div class="btn" >
+                                <button  type="submit">Submit</button>
+                               </div>
+                       </form> 
+                       
+                       
+                </div>
+            </div>
+         </div>   
+       
+    </section>
     
-    
-<!-- end section hero -->
-</section>
-<br>
-<!-- section profile -->
-<section class="profile" id="Profile">
+    <section class="footer" id="footer">
+        <footer>
+        <p style="text-align: center; color: white; font-size: 10px;">2023</p>
+        <p style="text-align: center; color: white; "><i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></p>
 
-</section>
-<!-- end section profile -->
-
-
-<!-- section project -->
-</body>
+            
+        
+   
+        </footer>
+    </section>
+    </body>
 </html>
+
